@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Group\ 7838.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+ul{
+    display: flex;
+    width: 40%;
+    color: white;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.icon{
+    visibility: hidden;
+}
+main{
+    width: 60vw;
+    padding: 60px;
+}
+h1{
+    color: rgba(48, 255, 205, 1);
+    font-size: 100px;
+}
+p,span{
+    color: white;
+}
+p{
+    margin-top: 50px;
+    margin-bottom:50px ;
+}
+span{
+    text-decoration: underline dashed yellow;
+}
+@media only screen and (max-width:600px){
+    img{
+        display: none;
+    }
+    .icon{
+        visibility: visible;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
